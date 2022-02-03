@@ -92,6 +92,14 @@ button {
   width: 400px;
 }
 
+.card-info {
+  display: flex;
+  padding: 5px 10px;
+}
+.card-info__left {
+  flex: 1;
+}
+
 .page-btn {
   border: none;
   margin: 5px;

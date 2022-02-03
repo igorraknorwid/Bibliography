@@ -20,12 +20,20 @@ const Card: React.FC<ICardProps> = ({ card }) => {
       <div className='card-img-box'>
         <img src={card.img_src} alt={card.author} className='card-img' />
       </div>
-      <div>{card.year}</div>
-      <div>{author}</div>
-      <div>{card.item}</div>
-      <button className='modal-open' onClick={showModal}>
-        Open
-      </button>
+      <div className='card-info'>
+        <div className='card-info__left'>
+          <div>
+            <div>{card.year}</div>
+            <div>{author}</div>
+          </div>
+          <div>{card.item}</div>
+        </div>
+        <div className='card-info__right'>
+          <button className='modal-open' onClick={showModal}>
+            Open
+          </button>
+        </div>
+      </div>
       {isVisible && <Modal card={card} hideModal={hideModal} />}
     </div>
   );
