@@ -256,4 +256,76 @@ export const data = [
     img_src:
       "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643874735/Bibliografia/Siatecki_o5l2pg.jpg",
   },
+  {
+    id: 29,
+    letter: "s",
+    year: "1982-1983",
+    item: ITEMS.HLiZL,
+    author: "siatecki",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643876598/Bibliografia/Siatecki_cty2en.jpg",
+  },
+  {
+    id: 30,
+    letter: "s",
+    year: "1982-1983",
+    item: ITEMS.HLiZL,
+    author: "stomka",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643876598/Bibliografia/Stomka_joswly.jpg",
+  },
+  {
+    id: 31,
+    letter: "s",
+    year: "1982-1983",
+    item: ITEMS.HLiZL,
+    author: "siatecki",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643876598/Bibliografia/Siatecki2_cfnpst.jpg",
+  },
+  {
+    id: 32,
+    letter: "w",
+    year: "1982-1983",
+    item: ITEMS.HLiZL,
+    author: "wynik",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643876598/Bibliografia/Wynik_d9pslx.jpg",
+  },
+  {
+    id: 33,
+    letter: "s",
+    year: "1982-1983",
+    item: ITEMS.HLiZL,
+    author: "siatecki",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643876598/Bibliografia/Siatecki6_wmngqh.jpg",
+  },
+  {
+    id: 34,
+    letter: "s",
+    year: "1982-1983",
+    item: ITEMS.HLiZL,
+    author: "siatecki",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643876598/Bibliografia/Siatecki3_beqc5a.jpg",
+  },
+  {
+    id: 35,
+    letter: "s",
+    year: "1982-1983",
+    item: ITEMS.HLiZL,
+    author: "siatecki",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643876599/Bibliografia/Siatecki5_uo79hi.jpg",
+  },
+  {
+    id: 36,
+    letter: "s",
+    year: "1982-1983",
+    item: ITEMS.HLiZL,
+    author: "siatecki",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643876599/Bibliografia/Siatecki4_grtbtx.jpg",
+  },
 ];

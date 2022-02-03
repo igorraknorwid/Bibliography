@@ -15,15 +15,10 @@ button {
   cursor: pointer;
 }
 
-.main-container {
-  width: 1200px;
-  margin: 20px auto;
-}
-
-.header-container {
+.main-container,
+.header-container,
+.footer-container {
   max-width: 1200px;
-  background-color: rgba(15, 162, 230, 0.5);
-  color: aliceblue;
   margin: 0 auto;
   padding: 20px;
 }

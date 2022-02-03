@@ -23,7 +23,7 @@ const Card: React.FC<ICardProps> = ({ card }) => {
       <div className='card-info'>
         <div className='card-info__left'>
           <div className='card-info__upper'>
-            <div>{card.year}</div>
+            <div className='card-item'>{card.year}</div>
             <div>{author}</div>
           </div>
           <div>{card.item}</div>
