@@ -1,38 +1,116 @@
 .App {
   text-align: center;
+  background: #fff;
+  color: rgb(51, 50, 50);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+  padding: 5px;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-container {
+  width: 1200px;
+  margin: 20px auto;
+  /* border: 1px solid rgba(223, 54, 54, 0.5); */
+}
+.header {
+  /* border-bottom: 1px solid rgb(78, 77, 77, 0.5); */
+}
+.header-container {
+  max-width: 1200px;
+  background-color: rgba(15, 162, 230, 0.5);
+  color: aliceblue;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.up {
+  padding: 10px;
+  background-color: rgba(190, 215, 245, 0.2);
+  margin: 10px 0;
+}
+
+.grid {
+  padding: 50px auto;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  column-gap: 30px;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: rgba(190, 215, 245, 0.2);
+  padding: 10px;
+}
+.sidebar > button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  margin: 10px 5px;
+  border-radius: 3px;
+}
+
+.content {
+  background-color: rgba(190, 215, 245, 0.2);
+  padding: 10px;
+}
+
+.card-box {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* justify-content: center; */
+}
+
+.card {
+  margin: 20px;
+  cursor: pointer;
+  background-color: rgba(184, 178, 178, 0.5);
+}
+
+.card-img-box {
+  width: 420px;
+  height: 270px;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-radius: 4px;
 }
 
-.App-link {
-  color: #61dafb;
+.card-img {
+  width: 100%;
+  object-fit: cover;
+  width: 400px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.page-btn {
+  border: none;
+  margin: 5px;
+}
+
+.page-btn--active {
+  color: #fff;
+  background-color: rgba(87, 143, 207, 0.5);
+  border: 2px solid #fff;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(17, 17, 17, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
