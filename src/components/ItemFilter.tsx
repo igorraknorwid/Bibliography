@@ -15,18 +15,15 @@ const ItemFilter: FC<IFilter> = ({
   onChangeFilters,
 }) => {
   return (
-    <div className='sidebar'>
-      <h2>Filtruj według haseł:</h2>
+    <div className='filter'>
+      {/* <h2>Filtruj według haseł:</h2> */}
       {filters["item"] === "all" ? (
-        <button
-          style={{ background: "blue", color: "#fff" }}
-          onClick={resetFilter}
-        >
-          wszystko
+        <button className='btn--active' onClick={resetFilter}>
+          wszystkie hasła
         </button>
       ) : (
-        <button className='filter__btn-all' onClick={resetFilter}>
-          wszystko
+        <button className='filter__btn' onClick={resetFilter}>
+          wszystkie hasła
         </button>
       )}
 
@@ -34,8 +31,7 @@ const ItemFilter: FC<IFilter> = ({
         filters["item"] === opt.name ? (
           <button
             key={i}
-            style={{ background: "blue", color: "#fff" }}
-            className='filter__item_active'
+            className='btn--active'
             name={"item"}
             value={opt.name}
             onClick={resetFilter}
@@ -45,7 +41,6 @@ const ItemFilter: FC<IFilter> = ({
         ) : (
           <button
             key={i}
-            className='filter__item'
             name={"item"}
             value={opt.name}
             onClick={(e) => onChangeFilters(e)}

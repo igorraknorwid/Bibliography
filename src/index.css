@@ -108,6 +108,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h2 {
+  margin-bottom: 8px;
+}
+
 #root {
   display: flex;
   min-height: 100vh;
@@ -123,4 +127,22 @@ body {
 .footer {
   background-color: #06357a;
   color: aliceblue;
+}
+
+button {
+  color: #06357a;
+  cursor: pointer;
+}
+button:hover {
+  text-decoration: underline;
+}
+
+.btn--active,
+button.btn--active {
+  font-weight: 700;
+  color: tomato;
+}
+
+select {
+  border: 1px solid #000;
 }

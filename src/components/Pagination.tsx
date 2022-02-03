@@ -25,7 +25,7 @@ const Pagination: React.FC<IPagination> = ({ pages, filters, setFilters }) => {
             return (
               <button
                 key={i}
-                className='page-btn--active'
+                className='btn--active'
                 value={num + 1}
                 onClick={(e) => onNextPage(e)}
               >

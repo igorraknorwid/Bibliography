@@ -50,7 +50,9 @@ function Bibliography() {
   return (
     <>
       <section className='up'>
-        <h1 className='title'>1982-1983</h1>
+        <div className='up-box'>
+          <h2 className='up-title'>1982-1983</h2>
+        </div>
         <div className='select'>
           <span>Liczba kart na stronie: </span>
           <select
@@ -73,27 +75,34 @@ function Bibliography() {
         </div>
       </section>
       <div className='grid'>
-        <ItemFilter
-          filters={filters}
-          set={itemSet}
-          resetFilter={() => resetItemFilter(filters, setFilters)}
-          onChangeFilters={onClickButton}
-        />
-
         <div className='content'>
-          <h2>Filtruj według nazwiska autora:</h2>
+          {/* <h2>Filtruj według nazwiska autora:</h2> */}
           <LetterFilter
             filters={filters}
             set={letterSet}
             resetFilter={() => resetLetterFilter(filters, setFilters)}
             onChangeFilters={onClickButton}
           />
-          <Pagination pages={pages} filters={filters} setFilters={setFilters} />
+
           <div className='card-box'>
             {limitedCards.map((card) => (
               <Card key={card.id} card={card} />
             ))}
+
+            <Pagination
+              pages={pages}
+              filters={filters}
+              setFilters={setFilters}
+            />
           </div>
+        </div>
+        <div>
+          <ItemFilter
+            filters={filters}
+            set={itemSet}
+            resetFilter={() => resetItemFilter(filters, setFilters)}
+            onChangeFilters={onClickButton}
+          />
         </div>
       </div>
     </>

@@ -5,7 +5,7 @@ function Header() {
   return (
     <header className='header'>
       <div className='header-container'>
-        <h1>
+        <h1 className='header-title'>
           <Link to='/'> Bibliografia Ziemi Lubuskiej 1945-1985</Link>
         </h1>
       </div>

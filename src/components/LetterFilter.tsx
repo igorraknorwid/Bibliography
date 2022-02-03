@@ -55,60 +55,56 @@ const LetterFilter: FC<IFilter> = ({
   // resetItemFilter,
 }) => {
   return (
-    <div className='filters'>
-      <div className='container'>
-        <div className='filter_group'>
+    <div className='letters'>
+      <div className='letters-all'>
+        <div>
           {filters["letter"] === "all" ? (
-            <button
-              style={{ background: "blue", color: "#fff" }}
-              className='filter__btn-all_active'
-              onClick={resetFilter}
-            >
-              wszystko
+            <button className='btn--active' onClick={resetFilter}>
+              wszystkie autory
             </button>
           ) : (
-            <button className='filter__btn-all' onClick={resetFilter}>
-              wszystko
+            <button className='filter__btn' onClick={resetFilter}>
+              wszystkie autory
             </button>
           )}
-          {alfabet.map((l, i) => {
-            if (set.find((item) => item.name === l)) {
-              if (l === filters["letter"]) {
-                return (
-                  <button
-                    key={i}
-                    style={{ background: "blue", color: "#fff" }}
-                    className='filter__item_active'
-                    name={"letter"}
-                    value={l}
-                    onClick={resetFilter}
-                  >
-                    {l}
-                  </button>
-                );
-              }
+        </div>
+      </div>
+      <div className='alfabet'>
+        {alfabet.map((l, i) => {
+          if (set.find((item) => item.name === l)) {
+            if (l === filters["letter"]) {
               return (
                 <button
                   key={i}
-                  className='filter__item'
                   name={"letter"}
                   value={l}
-                  onClick={(e) => {
-                    onChangeFilters(e);
-                  }}
+                  onClick={resetFilter}
+                  className='alfabet__btn--active'
                 >
                   {l}
                 </button>
               );
-            } else {
-              return (
-                <button key={i} disabled={true}>
-                  {l}
-                </button>
-              );
             }
-          })}
-        </div>
+            return (
+              <button
+                key={i}
+                name={"letter"}
+                value={l}
+                onClick={(e) => {
+                  onChangeFilters(e);
+                }}
+              >
+                {l}
+              </button>
+            );
+          } else {
+            return (
+              <button key={i} disabled={true}>
+                {l}
+              </button>
+            );
+          }
+        })}
       </div>
     </div>
   );

@@ -10,11 +10,6 @@
   box-sizing: border-box;
 }
 
-button {
-  padding: 5px;
-  cursor: pointer;
-}
-
 .main-container,
 .header-container,
 .footer-container {
@@ -23,43 +18,86 @@ button {
   padding: 20px;
 }
 
-.up {
-  padding: 10px;
-  background-color: rgba(190, 215, 245, 0.2);
-  margin: 10px 0;
-  display: flex;
-  align-items: center;
+.header-title {
+  font-size: 1.5rem;
+  font-weight: 300;
 }
 
-.up > .title {
+.up,
+.filter,
+.content {
+  background-color: ivory;
+  border: 1px solid lightgray;
+  padding: 20px;
+}
+.up {
+  margin: 0 0 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.up-box {
   flex: 1;
+  text-align: center;
+}
+
+.up-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0;
 }
 
 .grid {
   padding: 50px auto;
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 3fr 1.5fr;
   column-gap: 30px;
 }
-.sidebar {
+.filter {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  background-color: rgba(190, 215, 245, 0.2);
-  padding: 10px;
 }
-.sidebar > button {
+.filter > button {
   background: transparent;
   border: none;
   cursor: pointer;
   padding: 5px 10px;
-  margin: 10px 5px;
   border-radius: 3px;
 }
 
+.letters {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.letters-all {
+  margin: 0 auto;
+  padding: 5px 0;
+}
+.alfabet {
+  display: flex;
+  padding: 10px 0;
+}
+.alfabet__btn--active {
+  font-weight: 700;
+  color: tomato;
+}
+.alfabet > button {
+  font-weight: 500;
+}
+
+.alfabet > button:disabled {
+  color: rgb(83, 81, 81, 0.5);
+  font-weight: 300;
+}
+
+.alfabet > * {
+  flex: 1;
+}
+
 .content {
-  background-color: rgba(190, 215, 245, 0.2);
-  padding: 10px;
+  padding: 20px;
 }
 
 .card-box {
@@ -103,18 +141,32 @@ button {
 .card-info__upper {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-start;
 }
-
+.card-item,
+.card-hash {
+  background-color: rgb(238, 180, 54);
+  border-radius: 8px;
+  border: 1px solid lightgray;
+  padding: 5px;
+  margin: 5px;
+}
+.card-hash {
+  font-size: 0.8rem;
+}
 .page-btn {
   border: none;
   margin: 5px;
 }
 
-.page-btn--active {
-  color: #fff;
-  background-color: rgba(87, 143, 207, 0.5);
-  border: 2px solid #fff;
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination > * + div {
+  margin-left: 10px;
 }
 
 .modal {
@@ -127,4 +179,11 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.modal-open {
+  background-color: rgb(88, 88, 88, 0.5);
+  color: aliceblue;
+  padding: 6px;
+  font-weight: 500;
 }
