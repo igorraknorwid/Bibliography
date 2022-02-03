@@ -159,8 +159,8 @@ function App() {
       <main>
         <div className='main-container'>
           <section className='up'>
-            <h1>1982-1983</h1>
-            <div>
+            <h1 className='title'>1982-1983</h1>
+            <div className='select'>
               <span>Liczba kart na stronie: </span>
               <select
                 value={value}

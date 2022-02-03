@@ -18,11 +18,8 @@ button {
 .main-container {
   width: 1200px;
   margin: 20px auto;
-  /* border: 1px solid rgba(223, 54, 54, 0.5); */
 }
-.header {
-  /* border-bottom: 1px solid rgb(78, 77, 77, 0.5); */
-}
+
 .header-container {
   max-width: 1200px;
   background-color: rgba(15, 162, 230, 0.5);
@@ -35,6 +32,12 @@ button {
   padding: 10px;
   background-color: rgba(190, 215, 245, 0.2);
   margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.up > .title {
+  flex: 1;
 }
 
 .grid {
@@ -95,9 +98,17 @@ button {
 .card-info {
   display: flex;
   padding: 5px 10px;
+  padding: 5px 10px;
 }
 .card-info__left {
   flex: 1;
+  padding: 0 5px;
+}
+
+.card-info__upper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .page-btn {

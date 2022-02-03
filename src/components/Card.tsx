@@ -22,7 +22,7 @@ const Card: React.FC<ICardProps> = ({ card }) => {
       </div>
       <div className='card-info'>
         <div className='card-info__left'>
-          <div>
+          <div className='card-info__upper'>
             <div>{card.year}</div>
             <div>{author}</div>
           </div>
@@ -30,7 +30,7 @@ const Card: React.FC<ICardProps> = ({ card }) => {
         </div>
         <div className='card-info__right'>
           <button className='modal-open' onClick={showModal}>
-            Open
+            Zwiększ
           </button>
         </div>
       </div>
