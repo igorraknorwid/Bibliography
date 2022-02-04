@@ -14,7 +14,7 @@ const Modal: React.FC<IModalProps> = ({ card, hideModal }) => {
         <img src={card.img_src} alt={card.author} className='modal-img' />
       </div>
       <button className='modal-close' onClick={hideModal}>
-        Close
+        <span className='modal-btn-span'>&#10005;</span>
       </button>
     </div>
   );

@@ -1,7 +1,7 @@
 import React, { Component, MouseEvent } from "react";
 import { ICard } from "../models/card";
 import Modal from "./Modal";
-
+import expand from "../images/expand-arrows.png";
 interface ICardProps {
   card: ICard;
 }
@@ -27,12 +27,12 @@ const Card: React.FC<ICardProps> = ({ card }) => {
             <div className='card-item'>{author}</div>
           </div>
           <div>
-            <div className='card-hash '>{card.item}</div>
+            <div className='card-hash'>{card.item}</div>
           </div>
         </div>
         <div className='card-info__right'>
           <button className='modal-open' onClick={showModal}>
-            Zwiększ
+            <img src={expand} className='modal-logo' alt='expand' />
           </button>
         </div>
       </div>

@@ -109,7 +109,6 @@
 
 .card {
   margin: 20px;
-  cursor: pointer;
   background-color: rgba(184, 178, 178, 0.5);
 }
 
@@ -132,10 +131,15 @@
   display: flex;
   padding: 5px 10px;
   padding: 5px 10px;
+  align-items: center;
+  justify-content: space-between;
 }
 .card-info__left {
-  flex: 1;
+  /* flex: 1; */
   padding: 0 5px;
+}
+.card-info__right {
+  align-self: flex-start;
 }
 
 .card-info__upper {
@@ -184,6 +188,39 @@
 .modal-open {
   background-color: rgb(88, 88, 88, 0.5);
   color: aliceblue;
-  padding: 6px;
+  padding: 1px;
   font-weight: 500;
+}
+.modal-logo {
+  width: 50px;
+}
+
+.modal-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  text-decoration: none;
+  font-weight: 300;
+}
+.modal-close:hover {
+  font-weight: 700;
+}
+
+.modal-close span {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  color: white;
+  font-size: 30px;
+  padding: 4px;
+  width: 56px;
+  height: 56px;
+  text-decoration: none;
+}
+button.modal-close {
+  text-decoration: none;
+}
+
+.modal-btn-span {
+  text-decoration: none;
 }
