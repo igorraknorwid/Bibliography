@@ -154,6 +154,7 @@
   border: 1px solid lightgray;
   padding: 5px;
   margin: 5px;
+  text-align: center;
 }
 .card-hash {
   font-size: 0.8rem;
