@@ -1,6 +1,8 @@
 const ITEMS = {
   Językoznawstwo: "Językoznawstwo",
   HLiZL: "Historia Literatury.Życie literackie",
+  LP_T_P: "Literatura pięnkna.Teksty.Poezja",
+  LP_T_PR: "Literatura pięnkna.Teksty.Proza",
 };
 
 export const data = [
@@ -327,5 +329,275 @@ export const data = [
     author: "siatecki",
     img_src:
       "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643876599/Bibliografia/Siatecki4_grtbtx.jpg",
+  },
+  {
+    id: 37,
+    letter: "d",
+    year: "1982-1983",
+    item: ITEMS.HLiZL,
+    author: "dorawski",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643966800/Bibliografia/Dorawski_cfllv9.jpg",
+  },
+  {
+    id: 38,
+    letter: "ł",
+    year: "1982-1983",
+    item: ITEMS.HLiZL,
+    author: "łukaszewicz",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643966800/Bibliografia/%C5%81ukaszewicz_n4xnjf.jpg",
+  },
+  {
+    id: 39,
+    letter: "w",
+    year: "1982-1983",
+    item: ITEMS.HLiZL,
+    author: "wyniki",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643966800/Bibliografia/Wyniki_i6srxm.jpg",
+  },
+  {
+    id: 40,
+    letter: "m",
+    year: "1982-1983",
+    item: ITEMS.LP_T_P,
+    author: "morawski",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643967822/Bibliografia/morawski_ljnu0l.jpg",
+  },
+  {
+    id: 41,
+    letter: "a",
+    year: "1982-1983",
+    item: ITEMS.LP_T_P,
+    author: "ananiewicz",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643967822/Bibliografia/ananiewicz_pewsri.jpg",
+  },
+  {
+    id: 42,
+    letter: "f",
+    year: "1982-1983",
+    item: ITEMS.LP_T_P,
+    author: "furman",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643967822/Bibliografia/furman_mjvim7.jpg",
+  },
+  {
+    id: 43,
+    letter: "j",
+    year: "1982-1983",
+    item: ITEMS.LP_T_P,
+    author: "jankowski",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643967822/Bibliografia/jankowski_xsw8g7.jpg",
+  },
+  {
+    id: 44,
+    letter: "c",
+    year: "1982-1983",
+    item: ITEMS.LP_T_P,
+    author: "czerep",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643967822/Bibliografia/czerep_bwvye8.jpg",
+  },
+  {
+    id: 45,
+    letter: "k",
+    year: "1982-1983",
+    item: ITEMS.LP_T_P,
+    author: "koniusz",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643967822/Bibliografia/koniusz_icqdup.jpg",
+  },
+  {
+    id: 46,
+    letter: "m",
+    year: "1982-1983",
+    item: ITEMS.LP_T_P,
+    author: "mystkowski",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643967822/Bibliografia/mystkowski_rjilag.jpg",
+  },
+  {
+    id: 47,
+    letter: "o",
+    year: "1982-1983",
+    item: ITEMS.LP_T_P,
+    author: "olczak",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643967823/Bibliografia/olczak2_x0fnct.jpg",
+  },
+  {
+    id: 48,
+    letter: "o",
+    year: "1982-1983",
+    item: ITEMS.LP_T_P,
+    author: "olczak",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643967823/Bibliografia/olczak3_yrkivq.jpg",
+  },
+  {
+    id: 49,
+    letter: "m",
+    year: "1982-1983",
+    item: ITEMS.LP_T_P,
+    author: "morawski",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643967822/Bibliografia/morawski2_newagq.jpg",
+  },
+  {
+    id: 50,
+    letter: "w",
+    year: "1982-1983",
+    item: ITEMS.LP_T_P,
+    author: "wanecki",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643969115/Bibliografia/wanecki_abu8lo.jpg",
+  },
+  {
+    id: 51,
+    letter: "w",
+    year: "1982-1983",
+    item: ITEMS.LP_T_P,
+    author: "warciński",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643969115/Bibliografia/warci%C5%84ski_kr4kn8.jpg",
+  },
+  {
+    id: 52,
+    letter: "t",
+    year: "1982-1983",
+    item: ITEMS.LP_T_P,
+    author: "trawińska",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643969115/Bibliografia/trawi%C5%84ska_ej6tup.jpg",
+  },
+  {
+    id: 53,
+    letter: "w",
+    year: "1982-1983",
+    item: ITEMS.LP_T_P,
+    author: "waldon",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643969115/Bibliografia/waldon_nqr0gs.jpg",
+  },
+  {
+    id: 54,
+    letter: "z",
+    year: "1982-1983",
+    item: ITEMS.LP_T_P,
+    author: "zuj",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643969115/Bibliografia/zuj_zargzd.jpg",
+  },
+  {
+    id: 55,
+    letter: "c",
+    year: "1982-1983",
+    item: ITEMS.LP_T_PR,
+    author: "czarnecki",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643971374/Bibliografia/czarnecki2_nqqpxa.jpg",
+  },
+  {
+    id: 56,
+    letter: "c",
+    year: "1982-1983",
+    item: ITEMS.LP_T_PR,
+    author: "czarnecki",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643971374/Bibliografia/czarnecki_u1fnim.jpg",
+  },
+  {
+    id: 57,
+    letter: "d",
+    year: "1982-1983",
+    item: ITEMS.LP_T_PR,
+    author: "dobkiewiczowa",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643971374/Bibliografia/dobkiewiczowa_emoje6.jpg",
+  },
+  {
+    id: 58,
+    letter: "k",
+    year: "1982-1983",
+    item: ITEMS.LP_T_PR,
+    author: "konusz",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643971375/Bibliografia/konusz_ua49dq.jpg",
+  },
+  {
+    id: 59,
+    letter: "j",
+    year: "1982-1983",
+    item: ITEMS.LP_T_PR,
+    author: "jasiński",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643971375/Bibliografia/jasi%C5%84ski_mr6vhj.jpg",
+  },
+  {
+    id: 60,
+    letter: "k",
+    year: "1982-1983",
+    item: ITEMS.LP_T_PR,
+    author: "koniusz",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643971375/Bibliografia/koniusz3_jydwg9.jpg",
+  },
+  {
+    id: 61,
+    letter: "k",
+    year: "1982-1983",
+    item: ITEMS.LP_T_PR,
+    author: "koniusz",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643971375/Bibliografia/konusz4_ck5gx6.jpg",
+  },
+  {
+    id: 62,
+    letter: "k",
+    year: "1982-1983",
+    item: ITEMS.LP_T_PR,
+    author: "koniusz",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643971375/Bibliografia/konusz2_fkiibl.jpg",
+  },
+  {
+    id: 64,
+    letter: "m",
+    year: "1982-1983",
+    item: ITEMS.LP_T_PR,
+    author: "malicki",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643971375/Bibliografia/malicki_hl74ir.jpg",
+  },
+  {
+    id: 65,
+    letter: "m",
+    year: "1982-1983",
+    item: ITEMS.LP_T_PR,
+    author: "malicki",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643971375/Bibliografia/malicki2_bdekcy.jpg",
+  },
+  {
+    id: 66,
+    letter: "w",
+    year: "1982-1983",
+    item: ITEMS.LP_T_PR,
+    author: "wizerunki",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643973332/Bibliografia/wizerunki_hlve7o.jpg",
+  },
+  {
+    id: 67,
+    letter: "w",
+    year: "1982-1983",
+    item: ITEMS.LP_T_PR,
+    author: "wiktorski",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643973332/Bibliografia/wiktorski_mqf1yj.jpg",
   },
 ];
