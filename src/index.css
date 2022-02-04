@@ -140,7 +140,7 @@ button:hover {
 .btn--active,
 button.btn--active {
   font-weight: 700;
-  color: tomato;
+  color: #052c66;
 }
 
 select {

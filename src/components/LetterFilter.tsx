@@ -60,7 +60,7 @@ const LetterFilter: FC<IFilter> = ({
         <div>
           {filters["letter"] === "all" ? (
             <button className='btn--active' onClick={resetFilter}>
-              wszystkie autory
+              wszyscy autorzy
             </button>
           ) : (
             <button className='filter__btn' onClick={resetFilter}>
