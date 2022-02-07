@@ -17,13 +17,14 @@ const ItemFilter: FC<IFilter> = ({
   return (
     <div className='filter'>
       {/* <h2>Filtruj według haseł:</h2> */}
-      {filters["item"] === "all" ? (
+      {filters["item"] === "all" && filters["letter"] === "all" ? (
         <button className='btn--active' onClick={resetFilter}>
           wszystkie hasła
         </button>
       ) : (
-        <button className='filter__btn' onClick={resetFilter}>
-          wszystkie hasła
+        <button className='btn-disabled' onClick={resetFilter} disabled={true}>
+          hasła z literą{" "}
+          <span style={{ fontWeight: "700" }}>{filters.letter}</span>
         </button>
       )}
 

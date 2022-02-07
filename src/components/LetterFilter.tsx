@@ -99,7 +99,7 @@ const LetterFilter: FC<IFilter> = ({
             );
           } else {
             return (
-              <button key={i} disabled={true}>
+              <button className='btn-disabled' key={i} disabled={true}>
                 {l}
               </button>
             );

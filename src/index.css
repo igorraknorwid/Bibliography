@@ -121,6 +121,7 @@ h2 {
 .main {
   flex: 1;
   background-color: #efefef;
+  /* margin-top: 70px; */
 }
 
 .header,
@@ -128,6 +129,13 @@ h2 {
   background-color: #06357a;
   color: aliceblue;
 }
+
+/* .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+} */
 
 button {
   color: #06357a;
@@ -141,6 +149,13 @@ button:hover {
 button.btn--active {
   font-weight: 700;
   color: #052c66;
+}
+
+.btn-disabled {
+  text-decoration: none;
+}
+.btn-disabled:hover {
+  text-decoration: none;
 }
 
 select {

@@ -53,6 +53,7 @@ function Bibliography() {
         <div className='up-box'>
           <h2 className='up-title'>1982-1983</h2>
         </div>
+
         <div className='select'>
           <span>Liczba kart na stronie: </span>
           <select

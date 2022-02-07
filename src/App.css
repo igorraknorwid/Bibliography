@@ -18,6 +18,12 @@
   padding: 20px;
 }
 
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .header-title {
   font-size: 1.5rem;
   font-weight: 300;
@@ -26,7 +32,7 @@
 .up,
 .filter,
 .content {
-  background-color: ivory;
+  background-color: #fff;
   border: 1px solid lightgray;
   padding: 20px;
 }
