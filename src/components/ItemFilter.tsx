@@ -31,7 +31,7 @@ const ItemFilter: FC<IFilter> = ({
         filters["item"] === opt.name ? (
           <button
             key={i}
-            className='btn--active'
+            className='btn--active filter-item'
             name={"item"}
             value={opt.name}
             onClick={resetFilter}
@@ -42,6 +42,7 @@ const ItemFilter: FC<IFilter> = ({
           <button
             key={i}
             name={"item"}
+            className='filter-item'
             value={opt.name}
             onClick={(e) => onChangeFilters(e)}
           >

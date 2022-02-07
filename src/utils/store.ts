@@ -4,6 +4,7 @@ const ITEMS = {
   LP_T_P: "Literatura pięnkna.Teksty.Poezja",
   LP_T_PR: "Literatura pięnkna.Teksty.Proza",
   A_U_OZA: "Architektura.Urbanistyka.Ochrona zabytków",
+  R_M_G_RA: "Rzeźba.Malarstwo.Grafika.Rzemiosło artystyczne",
 };
 
 export const data = [
@@ -690,5 +691,221 @@ export const data = [
     author: "bułat-raczyńska",
     img_src:
       "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644221313/Bibliografia/bu%C5%82at-raczy%C5%84ska2_qe4h48.jpg",
+  },
+  {
+    id: 78,
+    letter: "p",
+    year: "1982-1983",
+    item: ITEMS.A_U_OZA,
+    author: "piekarska",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644225834/Bibliografia/piekarska3_nnxdyt.jpg",
+  },
+  {
+    id: 79,
+    letter: "s",
+    year: "1982-1983",
+    item: ITEMS.A_U_OZA,
+    author: "szczegóła",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644225834/Bibliografia/szczeg%C3%B3%C5%82a_owfi6k.jpg",
+  },
+  {
+    id: 80,
+    letter: "s",
+    year: "1982-1983",
+    item: ITEMS.A_U_OZA,
+    author: "spuścizna",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644225834/Bibliografia/spu%C5%9Bcizna_grlelo.jpg",
+  },
+  {
+    id: 81,
+    letter: "p",
+    year: "1982-1983",
+    item: ITEMS.A_U_OZA,
+    author: "piekarska",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644225834/Bibliografia/piekarska4_zy4u2g.jpg",
+  },
+  {
+    id: 82,
+    letter: "p",
+    year: "1982-1983",
+    item: ITEMS.A_U_OZA,
+    author: "piekarska",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644225834/Bibliografia/piekarska2_rhaate.jpg",
+  },
+  {
+    id: 83,
+    letter: "p",
+    year: "1982-1983",
+    item: ITEMS.A_U_OZA,
+    author: "piekarska",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644225834/Bibliografia/piekarska_s1mwqo.jpg",
+  },
+  {
+    id: 84,
+    letter: "s",
+    year: "1982-1983",
+    item: ITEMS.A_U_OZA,
+    author: "stopniak",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644225834/Bibliografia/stopniak_1_tfcmmq.jpg",
+  },
+  {
+    id: 85,
+    letter: "b",
+    year: "1982-1983",
+    item: ITEMS.A_U_OZA,
+    author: "bułat-raczyńska",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644225834/Bibliografia/bu%C5%82at-raczu%C5%84ska_1_cw6guq.jpg",
+  },
+  {
+    id: 86,
+    letter: "b",
+    year: "1982-1983",
+    item: ITEMS.A_U_OZA,
+    author: "bułat-raczyńska",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644225834/Bibliografia/bu%C5%82at-raczu%C5%84ska_afrvgq.jpg",
+  },
+  {
+    id: 87,
+    letter: "t",
+    year: "1982-1983",
+    item: ITEMS.A_U_OZA,
+    author: "tomicz",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644225834/Bibliografia/tomicz_s6ezq3.jpg",
+  },
+  {
+    id: 88,
+    letter: "m",
+    year: "1982-1983",
+    item: ITEMS.R_M_G_RA,
+    author: "muszyński",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644227609/Bibliografia/muszy%C5%84ski_sa7fha.jpg",
+  },
+  {
+    id: 89,
+    letter: "s",
+    year: "1982-1983",
+    item: ITEMS.R_M_G_RA,
+    author: "szymaniak",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644227609/Bibliografia/szymaniak_bbj0pb.jpg",
+  },
+  {
+    id: 90,
+    letter: "a",
+    year: "1982-1983",
+    item: ITEMS.R_M_G_RA,
+    author: "ankiewicz",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644227609/Bibliografia/ankiewicz2_kxdgiw.jpg",
+  },
+  {
+    id: 91,
+    letter: "n",
+    year: "1982-1983",
+    item: ITEMS.R_M_G_RA,
+    author: "nadworny",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644227609/Bibliografia/nadworny_dw2osg.jpg",
+  },
+  {
+    id: 92,
+    letter: "a",
+    year: "1982-1983",
+    item: ITEMS.R_M_G_RA,
+    author: "ankiewicz",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644227609/Bibliografia/ankiewicz3_z3trlb.jpg",
+  },
+  {
+    id: 93,
+    letter: "a",
+    year: "1982-1983",
+    item: ITEMS.R_M_G_RA,
+    author: "ankiewicz",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644227609/Bibliografia/ankiewicz_jantyb.jpg",
+  },
+  {
+    id: 93,
+    letter: "a",
+    year: "1982-1983",
+    item: ITEMS.R_M_G_RA,
+    author: "ankiewicz",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644227609/Bibliografia/ankiewicz_1_yc4lnn.jpg",
+  },
+  {
+    id: 94,
+    letter: "m",
+    year: "1982-1983",
+    item: ITEMS.R_M_G_RA,
+    author: "muszyński",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644227609/Bibliografia/muszy%C5%84ski_1_vwmib6.jpg",
+  },
+  {
+    id: 95,
+    letter: "m",
+    year: "1982-1983",
+    item: ITEMS.R_M_G_RA,
+    author: "muszyński",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644228321/Bibliografia/muszy%C5%84ski_2_vqca6q.jpg",
+  },
+  {
+    id: 96,
+    letter: "k",
+    year: "1982-1983",
+    item: ITEMS.R_M_G_RA,
+    author: "kiełb",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644228321/Bibliografia/kie%C5%82b_ryjvpl.jpg",
+  },
+  {
+    id: 97,
+    letter: "a",
+    year: "1982-1983",
+    item: ITEMS.R_M_G_RA,
+    author: "adamczuk",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644228321/Bibliografia/adamczuk_ftsmbc.jpg",
+  },
+  {
+    id: 98,
+    letter: "b",
+    year: "1982-1983",
+    item: ITEMS.R_M_G_RA,
+    author: "barokowy",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644228321/Bibliografia/barokowy_xmwyhd.jpg",
+  },
+  {
+    id: 99,
+    letter: "k",
+    year: "1982-1983",
+    item: ITEMS.R_M_G_RA,
+    author: "kaszczyc",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644228321/Bibliografia/kaszczyc_jmszm7.jpg",
+  },
+  {
+    id: 100,
+    letter: "a",
+    year: "adamczuk",
+    item: ITEMS.R_M_G_RA,
+    author: "adamczuk",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644228321/Bibliografia/adamczuk2_l311cd.jpg",
   },
 ];
