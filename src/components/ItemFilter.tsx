@@ -16,16 +16,15 @@ const ItemFilter: FC<IFilter> = ({
 }) => {
   return (
     <div className='filter'>
-      {/* <h2>Filtruj według haseł:</h2> */}
       {filters["item"] === "all" && filters["letter"] === "all" ? (
-        <button className='btn--active' onClick={resetFilter}>
-          wszystkie hasła
-        </button>
+        <div style={{ padding: "5px 10px" }}>
+          wszystkie hasła z 1982-1983 r.
+        </div>
       ) : (
-        <button className='btn-disabled' onClick={resetFilter} disabled={true}>
+        <div style={{ padding: "5px 10px" }}>
           hasła z literą{" "}
           <span style={{ fontWeight: "700" }}>{filters.letter}</span>
-        </button>
+        </div>
       )}
 
       {set.map((opt: any, i: number) =>
