@@ -3,6 +3,7 @@ const ITEMS = {
   HLiZL: "Historia Literatury.Życie literackie",
   LP_T_P: "Literatura pięnkna.Teksty.Poezja",
   LP_T_PR: "Literatura pięnkna.Teksty.Proza",
+  A_U_OZA: "Architektura.Urbanistyka.Ochrona zabytków",
 };
 
 export const data = [
@@ -599,5 +600,95 @@ export const data = [
     author: "wiktorski",
     img_src:
       "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643973332/Bibliografia/wiktorski_mqf1yj.jpg",
+  },
+  {
+    id: 68,
+    letter: "s",
+    year: "1982-1983",
+    item: ITEMS.A_U_OZA,
+    author: "stopniak",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644221313/Bibliografia/stopniak_pd1ksg.jpg",
+  },
+  {
+    id: 69,
+    letter: "r",
+    year: "1982-1983",
+    item: ITEMS.A_U_OZA,
+    author: "rowiński",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644221313/Bibliografia/rowi%C5%84ski_s4ygz9.jpg",
+  },
+  {
+    id: 70,
+    letter: "c",
+    year: "1982-1983",
+    item: ITEMS.A_U_OZA,
+    author: "cudak",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644221313/Bibliografia/cudak_lgtlxv.jpg",
+  },
+  {
+    id: 71,
+    letter: "a",
+    year: "1982-1983",
+    item: ITEMS.A_U_OZA,
+    author: "adamczuk",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644221313/Bibliografia/adamczuk_qoov7w.jpg",
+  },
+  {
+    id: 72,
+    letter: "c",
+    year: "1982-1983",
+    item: ITEMS.A_U_OZA,
+    author: "cudak",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644221313/Bibliografia/cudak2_lwnyvt.jpg",
+  },
+  {
+    id: 73,
+    letter: "c",
+    year: "1982-1983",
+    item: ITEMS.A_U_OZA,
+    author: "ciesielski",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644221313/Bibliografia/ciesielski_ztszok.jpg",
+  },
+  {
+    id: 74,
+    letter: "b",
+    year: "1982-1983",
+    item: ITEMS.A_U_OZA,
+    author: "bułat-raczyńska",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644221314/Bibliografia/bu%C5%82at-raczy%C5%84ska_tbmjqy.jpg",
+  },
+  {
+    id: 75,
+    letter: "r",
+    year: "1982-1983",
+    item: ITEMS.A_U_OZA,
+    author: "rowiński",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644221313/Bibliografia/rowi%C5%84ski_1_x2utiw.jpg",
+  },
+  {
+    id: 76,
+    letter: "m",
+    year: "1982-1983",
+    item: ITEMS.A_U_OZA,
+    author: "maksymczuk",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644221313/Bibliografia/maksymczuk_bb3klq.jpg",
+  },
+  {
+    id: 77,
+    letter: "b",
+    year: "1982-1983",
+    item: ITEMS.A_U_OZA,
+    author: "bułat-raczyńska",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644221313/Bibliografia/bu%C5%82at-raczy%C5%84ska2_qe4h48.jpg",
   },
 ];
