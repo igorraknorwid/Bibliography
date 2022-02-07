@@ -16,7 +16,19 @@ const ItemFilter: FC<IFilter> = ({
 }) => {
   return (
     <div className='filter'>
-      {filters["item"] === "all" && filters["letter"] === "all" ? (
+      {/* {filters["letter"] === "all" && (
+        <div style={{ padding: "5px 10px" }}>
+          wszystkie hasła z 1982-1983 r.
+        </div>
+      )}
+      {filters["letter"] !== "all" && (
+        <div style={{ padding: "5px 10px" }}>
+          hasła z literą{" "}
+          <span style={{ fontWeight: "700" }}>{filters.letter}</span>
+        </div>
+      )} */}
+
+      {filters["letter"] === "all" ? (
         <div style={{ padding: "5px 10px" }}>
           wszystkie hasła z 1982-1983 r.
         </div>
