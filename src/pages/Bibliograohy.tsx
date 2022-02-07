@@ -43,8 +43,6 @@ function Bibliography() {
     setLimit(Number(value));
   }, [value]);
 
-  console.log(limitedCards);
-
   const onClickButton = (e: MouseEvent) =>
     onChangeFilters(e, filters, setFilters);
   return (

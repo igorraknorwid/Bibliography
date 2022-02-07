@@ -30,11 +30,11 @@ const ItemFilter: FC<IFilter> = ({
 
       {filters["letter"] === "all" ? (
         <div style={{ padding: "5px 10px" }}>
-          wszystkie hasła z 1982-1983 r.
+          wszystkie dyskryptory z 1982-1983 r.
         </div>
       ) : (
         <div style={{ padding: "5px 10px" }}>
-          hasła z literą{" "}
+          dyskryptory z hasłami z litery{" "}
           <span style={{ fontWeight: "700" }}>{filters.letter}</span>
         </div>
       )}
