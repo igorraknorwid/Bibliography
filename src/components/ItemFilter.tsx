@@ -14,6 +14,7 @@ const ItemFilter: FC<IFilter> = ({
   resetFilter,
   onChangeFilters,
 }) => {
+  console.log(filters);
   return (
     <div className='filter'>
       {/* {filters["letter"] === "all" && (
@@ -30,7 +31,24 @@ const ItemFilter: FC<IFilter> = ({
 
       {filters["letter"] === "all" ? (
         <div style={{ padding: "5px 10px" }}>
-          wszystkie dyskryptory z 1982-1983 r.
+          {/* <button className='btn--active' onClick={resetFilter}>
+            wszystkie dyskryptory z 1982-1983 r.
+          </button> */}
+          {filters["item"] !== "all" ? (
+            <p>
+              {" "}
+              <button onClick={resetFilter}>
+                wszystkie dyskryptory z 1982-1983 r.
+              </button>
+            </p>
+          ) : (
+            <p>
+              {" "}
+              <button onClick={resetFilter} className='btn--active'>
+                wszystkie dyskryptory z 1982-1983 r.
+              </button>
+            </p>
+          )}
         </div>
       ) : (
         <div style={{ padding: "5px 10px" }}>

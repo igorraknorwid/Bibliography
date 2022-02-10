@@ -1,7 +1,7 @@
 const ITEMS = {
   Językoznawstwo: "Językoznawstwo",
   HLiZL: "Historia Literatury.Życie literackie",
-  LP_T_P: "Literatura pięnkna.Teksty.Poezja",
+  LP_T_P: "Literatura piękna.Teksty.Poezja",
   LP_T_PR: "Literatura pięnkna.Teksty.Proza",
   A_U_OZA: "Architektura.Urbanistyka.Ochrona zabytków",
   R_M_G_RA: "Rzeźba.Malarstwo.Grafika.Rzemiosło artystyczne",
@@ -40,7 +40,7 @@ export const data = [
     letter: "a",
     year: "1982-1983",
     item: ITEMS.HLiZL,
-    author: "adamchuk",
+    author: "adamczuk",
     img_src:
       "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643643957/Bibliografia/adamczuk_du1zyv.jpg",
   },
@@ -49,16 +49,16 @@ export const data = [
     letter: "a",
     year: "1982-1983",
     item: ITEMS.HLiZL,
-    author: "adamchuk",
+    author: "adamczuk",
     img_src:
-      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643644300/Bibliografia/Adamchuk3_lz3lbs.jpg",
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643644300/Bibliografia/adamczuk3_lz3lbs.jpg",
   },
   {
     id: 6,
     letter: "a",
     year: "1982-1983",
     item: ITEMS.HLiZL,
-    author: "adamchuk",
+    author: "adamczuk",
     img_src:
       "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643644300/Bibliografia/Adamczuk2_ihcwj0.jpg",
   },
@@ -67,16 +67,16 @@ export const data = [
     letter: "a",
     year: "1982-1983",
     item: ITEMS.HLiZL,
-    author: "adamchuk",
+    author: "adamczuk",
     img_src:
-      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643644300/Bibliografia/Adamchuk1_zywq4n.jpg",
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643644300/Bibliografia/adamczuk1_zywq4n.jpg",
   },
   {
     id: 8,
     letter: "a",
     year: "1982-1983",
     item: ITEMS.HLiZL,
-    author: "adamchuk",
+    author: "adamczuk",
     img_src:
       "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643644300/Bibliografia/Adamczuk4_omzg7j.jpg",
   },
