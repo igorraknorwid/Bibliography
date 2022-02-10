@@ -62,15 +62,15 @@ export const data = [
     img_src:
       "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643644300/Bibliografia/Adamczuk2_ihcwj0.jpg",
   },
-  {
-    id: 7,
-    letter: "a",
-    year: "1982-1983",
-    item: ITEMS.HLiZL,
-    author: "adamczuk",
-    img_src:
-      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643644300/Bibliografia/adamchuk1_zywq4n.jpg",
-  },
+  // {
+  //   id: 7,
+  //   letter: "a",
+  //   year: "1982-1983",
+  //   item: ITEMS.HLiZL,
+  //   author: "adamczuk",
+  //   img_src:
+  //     "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643644300/Bibliografia/adamczuk1_zywq4n.jpg",
+  // },
   {
     id: 8,
     letter: "a",
