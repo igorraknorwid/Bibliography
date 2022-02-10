@@ -2,7 +2,7 @@ const ITEMS = {
   Językoznawstwo: "Językoznawstwo",
   HLiZL: "Historia Literatury.Życie literackie",
   LP_T_P: "Literatura piękna.Teksty.Poezja",
-  LP_T_PR: "Literatura pięnkna.Teksty.Proza",
+  LP_T_PR: "Literatura piękna.Teksty.Proza",
   A_U_OZA: "Architektura.Urbanistyka.Ochrona zabytków",
   R_M_G_RA: "Rzeźba.Malarstwo.Grafika.Rzemiosło artystyczne",
 };
