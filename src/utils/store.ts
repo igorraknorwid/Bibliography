@@ -51,7 +51,7 @@ export const data = [
     item: ITEMS.HLiZL,
     author: "adamczuk",
     img_src:
-      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643644300/Bibliografia/adamczuk3_lz3lbs.jpg",
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1643644300/Bibliografia/adamchuk3_lz3lbs.jpg",
   },
   {
     id: 6,
