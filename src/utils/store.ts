@@ -1092,12 +1092,201 @@ export const data = [
       "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645093126/Bibliografia/Kami%C5%84ska_3_ecbelm.jpg",
   },
   {
-    id: 120,
+    id: 121,
     letter: "k",
     year: "1982-1983",
     item: ITEMS.TP,
     author: "Kamińska",
     img_src:
       "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645093126/Bibliografia/Kami%C5%84ska_2_j3kk5o.jpg",
+  },
+  {
+    id: 122,
+    letter: "c",
+    year: "1982-1983",
+    item: ITEMS.TR,
+    author: "Camoletti",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645098747/Bibliografia/Camoletti_ma0mny.jpg",
+  },
+  {
+    id: 123,
+    letter: "c",
+    year: "1982-1983",
+    item: ITEMS.TR,
+    author: "Boccaccio",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645098747/Bibliografia/Boccaccio_nzeaxr.jpg",
+  },
+  {
+    id: 124,
+    letter: "b",
+    year: "1982-1983",
+    item: ITEMS.TR,
+    author: "Boccaccio",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645098747/Bibliografia/Boccaccio_nzeaxr.jpg",
+  },
+  {
+    id: 125,
+    letter: "b",
+    year: "1982-1983",
+    item: ITEMS.TR,
+    author: "Bogusławski",
+    img_src:
+      " https://res.cloudinary.com/zielona-g-ra/image/upload/v1645098747/Bibliografia/Bogus%C5%82awski_q93wjj.jpg",
+  },
+  {
+    id: 126,
+    letter: "d",
+    year: "1982-1983",
+    item: ITEMS.TR,
+    author: "Dostoevski",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645098747/Bibliografia/Dostoevski_yebzq1.jpg",
+  },
+  {
+    id: 127,
+    letter: "a",
+    year: "1982-1983",
+    item: ITEMS.TR,
+    author: "Andrzejewski",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645098747/Bibliografia/Andrzejewski_gio9hd.jpg",
+  },
+  {
+    id: 128,
+    letter: "s",
+    year: "1982-1983",
+    item: ITEMS.TR,
+    author: "Sobkowiak",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645098748/Bibliografia/Sobkowiak_hksrqu.jpg",
+  },
+  {
+    id: 129,
+    letter: "k",
+    year: "1982-1983",
+    item: ITEMS.TR,
+    author: "Kamińska",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645098748/Bibliografia/Kami%C5%84ska_2_pc355j.jpg",
+  },
+  {
+    id: 130,
+    letter: "k",
+    year: "1982-1983",
+    item: ITEMS.TR,
+    author: "Kamińska",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645098748/Bibliografia/Kami%C5%84ska_rdv839.jpg",
+  },
+  {
+    id: 131,
+    letter: "f",
+    year: "1982-1983",
+    item: ITEMS.TR,
+    author: "Feliński",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645098748/Bibliografia/Feli%C5%84ski_fzyjkc.jpg",
+  },
+  {
+    id: 132,
+    letter: "s",
+    year: "1982-1983",
+    item: ITEMS.TR,
+    author: "Sieradzki",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645098749/Bibliografia/Sieradzki_hrb82x.jpg",
+  },
+  {
+    id: 133,
+    letter: "w",
+    year: "1982-1983",
+    item: ITEMS.TR,
+    author: "Wolski",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645098749/Bibliografia/Wolski_a5k2hf.jpg",
+  },
+  {
+    id: 134,
+    letter: "r",
+    year: "1982-1983",
+    item: ITEMS.TR,
+    author: "Różewicz",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645098749/Bibliografia/R%C3%B3%C5%BCewicz_zh2hnv.jpg",
+  },
+  {
+    id: 135,
+    letter: "k",
+    year: "1982-1983",
+    item: ITEMS.TR,
+    author: "Kamińska",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645098748/Bibliografia/Kami%C5%84ska_10_r0gksq.jpg",
+  },
+  {
+    id: 135,
+    letter: "s",
+    year: "1982-1983",
+    item: ITEMS.TR,
+    author: "Strindberg",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645098749/Bibliografia/Strindberg_pigofm.jpg",
+  },
+  {
+    id: 136,
+    letter: "s",
+    year: "1982-1983",
+    item: ITEMS.TR,
+    author: "Mrożek",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645098750/Bibliografia/Mro%C5%BCek_lcukna.jpg",
+  },
+  {
+    id: 137,
+    letter: "s",
+    year: "1982-1983",
+    item: ITEMS.TR,
+    author: "Zapolska",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645098750/Bibliografia/Zapolska_4_qdlkh9.jpg",
+  },
+  {
+    id: 138,
+    letter: "w",
+    year: "1982-1983",
+    item: ITEMS.TR,
+    author: "Witkiewicz",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645098750/Bibliografia/Witkiewicz_plpgyu.jpg",
+  },
+  {
+    id: 139,
+    letter: "w",
+    year: "1982-1983",
+    item: ITEMS.TR,
+    author: "Witkiewicz",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645098750/Bibliografia/Witkiewicz_2_n4bpif.jpg",
+  },
+  {
+    id: 139,
+    letter: "s",
+    year: "1982-1983",
+    item: ITEMS.TR,
+    author: "Sikiryck",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645098750/Bibliografia/Sikirycki_h3t3cs.jpg",
+  },
+  {
+    id: 140,
+    letter: "s",
+    year: "1982-1983",
+    item: ITEMS.TR,
+    author: "Zapolska",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645098750/Bibliografia/Zapolska_jlzgrg.jpg",
   },
 ];
