@@ -1,4 +1,4 @@
-import React, { Component, MouseEvent } from "react";
+import React from "react";
 import { IFilters } from "../types";
 
 interface IPagination {

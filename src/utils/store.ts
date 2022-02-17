@@ -661,7 +661,7 @@ export const data = [
     letter: "b",
     year: "1982-1983",
     item: ITEMS.A_U_OZA,
-    author: "bułat-raczyńska",
+    author: "bułat-Raczyńska",
     img_src:
       "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644221314/Bibliografia/bu%C5%82at-raczy%C5%84ska_tbmjqy.jpg",
   },
@@ -688,7 +688,7 @@ export const data = [
     letter: "b",
     year: "1982-1983",
     item: ITEMS.A_U_OZA,
-    author: "bułat-raczyńska",
+    author: "bułat-Raczyńska",
     img_src:
       "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644221313/Bibliografia/bu%C5%82at-raczy%C5%84ska2_qe4h48.jpg",
   },
@@ -760,7 +760,7 @@ export const data = [
     letter: "b",
     year: "1982-1983",
     item: ITEMS.A_U_OZA,
-    author: "bułat-raczyńska",
+    author: "bułat-Raczyńska",
     img_src:
       "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644225834/Bibliografia/bu%C5%82at-raczu%C5%84ska_1_cw6guq.jpg",
   },
@@ -769,7 +769,7 @@ export const data = [
     letter: "b",
     year: "1982-1983",
     item: ITEMS.A_U_OZA,
-    author: "bułat-raczyńska",
+    author: "bułat-Raczyńska",
     img_src:
       "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644225834/Bibliografia/bu%C5%82at-raczu%C5%84ska_afrvgq.jpg",
   },
