@@ -945,6 +945,6 @@ export const data = [
     item: ITEMS.TE,
     author: "Dębek",
     img_src:
-      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645092122/Bibliografia/adamczuk3_qu9yuz.jpg",
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645092121/Bibliografia/adamczuk_tokgkl.jpg",
   },
 ];
