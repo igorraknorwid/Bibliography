@@ -947,4 +947,157 @@ export const data = [
     img_src:
       "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645092121/Bibliografia/adamczuk_tokgkl.jpg",
   },
+  {
+    id: 105,
+    letter: "a",
+    year: "1982-1983",
+    item: ITEMS.TP,
+    author: "Adamczuk",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645093124/Bibliografia/Adamczuk_w36vxv.jpg",
+  },
+  {
+    id: 106,
+    letter: "a",
+    year: "1982-1983",
+    item: ITEMS.TP,
+    author: "Adamczuk",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645093124/Bibliografia/Adamczuk_3_n88m13.jpg",
+  },
+  {
+    id: 107,
+    letter: "z",
+    year: "1982-1983",
+    item: ITEMS.TP,
+    author: "Zysnarski",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645093124/Bibliografia/Zysnarski_2_vdqh2h.jpg",
+  },
+  {
+    id: 108,
+    letter: "a",
+    year: "1982-1983",
+    item: ITEMS.TP,
+    author: "Adamczuk",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645093124/Bibliografia/Adamczuk_2_muddp7.jpg",
+  },
+  {
+    id: 109,
+    letter: "k",
+    year: "1982-1983",
+    item: ITEMS.TP,
+    author: "Krzyszycha",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645093124/Bibliografia/Krzyszycha_lhuxon.jpg",
+  },
+  {
+    id: 110,
+    letter: "m",
+    year: "1982-1983",
+    item: ITEMS.TP,
+    author: "Michalak",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645093124/Bibliografia/Michalak_gkjnx7.jpg",
+  },
+  {
+    id: 111,
+    letter: "m",
+    year: "1982-1983",
+    item: ITEMS.TP,
+    author: "Mikuć",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645093125/Bibliografia/Miku%C4%87_z3okru.jpg",
+  },
+  {
+    id: 112,
+    letter: "s",
+    year: "1982-1983",
+    item: ITEMS.TP,
+    author: "Szymańska-Napiontkowa",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645093125/Bibliografia/Szyma%C5%84ska-Napiontkowa_rtdzee.jpg",
+  },
+  {
+    id: 113,
+    letter: "w",
+    year: "1982-1983",
+    item: ITEMS.TP,
+    author: "Węglarz",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645093125/Bibliografia/W%C4%99glarz_vla77o.jpg",
+  },
+  {
+    id: 114,
+    letter: "z",
+    year: "1982-1983",
+    item: ITEMS.TP,
+    author: "Zysnarski",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645093125/Bibliografia/Zysnarski_ropln0.jpg",
+  },
+  {
+    id: 115,
+    letter: "c",
+    year: "1982-1983",
+    item: ITEMS.TP,
+    author: "Ciesielski",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645093125/Bibliografia/Ciesielski_qnmpwx.jpg",
+  },
+  {
+    id: 116,
+    letter: "a",
+    year: "1982-1983",
+    item: ITEMS.TP,
+    author: "Adamczuk",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645093125/Bibliografia/Adamczuk_5_yfe3xz.jpg",
+  },
+  {
+    id: 117,
+    letter: "a",
+    year: "1982-1983",
+    item: ITEMS.TP,
+    author: "Adamczuk",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645093125/Bibliografia/Adamczuk_4_dxf24s.jpg",
+  },
+  {
+    id: 118,
+    letter: "k",
+    year: "1982-1983",
+    item: ITEMS.TP,
+    author: "Kamińska",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645093126/Bibliografia/Kami%C5%84ska_hh3gfj.jpg",
+  },
+  {
+    id: 119,
+    letter: "s",
+    year: "1982-1983",
+    item: ITEMS.TP,
+    author: "Szymańska-Napiontkowa",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645093126/Bibliografia/Szyma%C5%84ska-Napiontkowa_2_e7aw00.jpg",
+  },
+  {
+    id: 120,
+    letter: "k",
+    year: "1982-1983",
+    item: ITEMS.TP,
+    author: "Kamińska",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645093126/Bibliografia/Kami%C5%84ska_3_ecbelm.jpg",
+  },
+  {
+    id: 120,
+    letter: "k",
+    year: "1982-1983",
+    item: ITEMS.TP,
+    author: "Kamińska",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645093126/Bibliografia/Kami%C5%84ska_2_j3kk5o.jpg",
+  },
 ];
