@@ -8,6 +8,7 @@ const ITEMS = {
   TE: "Teatr.Estrada",
   TP: "Teatr.Państwowy Teatr im. Juliusza Osterwy w Gorzowie",
   TR: "Teatr.Recenzje teatralne",
+  T_GST: "Teatr.Gorzowskie Spotkania Teatralne",
 };
 
 export const data = [
@@ -1282,11 +1283,128 @@ export const data = [
   },
   {
     id: 140,
-    letter: "s",
+    letter: "z",
     year: "1982-1983",
     item: ITEMS.TR,
     author: "Zapolska",
     img_src:
       "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645098750/Bibliografia/Zapolska_jlzgrg.jpg",
+  },
+  {
+    id: 141,
+    letter: "a",
+    year: "1982-1983",
+    item: ITEMS.T_GST,
+    author: "Adamczuk",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645101523/Bibliografia/Adamczuk_3_hyptlb.jpg",
+  },
+  {
+    id: 142,
+    letter: "a",
+    year: "1982-1983",
+    item: ITEMS.T_GST,
+    author: "Adamczuk",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645101523/Bibliografia/Adamczuk_2_xjgnjc.jpg",
+  },
+  {
+    id: 143,
+    letter: "a",
+    year: "1982-1983",
+    item: ITEMS.T_GST,
+    author: "Adamczuk",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645101523/Bibliografia/Adamczuk_yhpowb.jpg",
+  },
+  {
+    id: 143,
+    letter: "a",
+    year: "1982-1983",
+    item: ITEMS.T_GST,
+    author: "Adamczuk",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645101523/Bibliografia/Adamczuk_yhpowb.jpg",
+  },
+  {
+    id: 144,
+    letter: "s",
+    year: "1982-1983",
+    item: ITEMS.T_GST,
+    author: "Staniewicz",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645101523/Bibliografia/Staniewicz_2_kclzw6.jpg",
+  },
+  {
+    id: 145,
+    letter: "a",
+    year: "1982-1983",
+    item: ITEMS.T_GST,
+    author: "Adamczuk",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645101523/Bibliografia/Adamczuk_4_wguwfg.jpg",
+  },
+  {
+    id: 146,
+    letter: "d",
+    year: "1982-1983",
+    item: ITEMS.T_GST,
+    author: "Dębek",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645101523/Bibliografia/D%C4%99bek_2_uxxcap.jpg",
+  },
+  {
+    id: 147,
+    letter: "p",
+    year: "1982-1983",
+    item: ITEMS.T_GST,
+    author: "Piekarska",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645101524/Bibliografia/Piekarska_ty9rmt.jpg",
+  },
+  {
+    id: 148,
+    letter: "s",
+    year: "1982-1983",
+    item: ITEMS.T_GST,
+    author: "Staniewicz",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645101524/Bibliografia/Staniewicz_yz7cwv.jpg",
+  },
+  {
+    id: 149,
+    letter: "d",
+    year: "1982-1983",
+    item: ITEMS.T_GST,
+    author: "Dębek",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645101524/Bibliografia/D%C4%99bek_tfqsgs.jpg",
+  },
+  {
+    id: 151,
+    letter: "m",
+    year: "1982-1983",
+    item: ITEMS.T_GST,
+    author: "Morawski",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645101524/Bibliografia/Morawski_e45zip.jpg",
+  },
+  {
+    id: 152,
+    letter: "a",
+    year: "1982-1983",
+    item: ITEMS.T_GST,
+    author: "Adamczuk",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645101524/Bibliografia/Adamczuk_5_yvrkqz.jpg",
+  },
+  {
+    id: 153,
+    letter: "k",
+    year: "1982-1983",
+    item: ITEMS.T_GST,
+    author: "Kamińska",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645101524/Bibliografia/Kami%C5%84ska_zjgqij.jpg",
   },
 ];
