@@ -5,6 +5,9 @@ const ITEMS = {
   LP_T_PR: "Literatura piękna.Teksty.Proza",
   A_U_OZA: "Architektura.Urbanistyka.Ochrona zabytków",
   R_M_G_RA: "Rzeźba.Malarstwo.Grafika.Rzemiosło artystyczne",
+  TE: "Teatr.Estrada",
+  TP: "Teatr.Państwowy Teatr im. Juliusza Osterwy w Gorzowie",
+  TR: "Teatr.Recenzje teatralne",
 };
 
 export const data = [
@@ -902,10 +905,46 @@ export const data = [
   {
     id: 100,
     letter: "a",
-    year: "adamczuk",
+    year: "1982-1983",
     item: ITEMS.R_M_G_RA,
     author: "adamczuk",
     img_src:
       "https://res.cloudinary.com/zielona-g-ra/image/upload/v1644228321/Bibliografia/adamczuk2_l311cd.jpg",
+  },
+  {
+    id: 101,
+    letter: "a",
+    year: "1982-1983",
+    item: ITEMS.TE,
+    author: "adamczuk",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645092122/Bibliografia/adamczuk2_nhwwid.jpg",
+  },
+  {
+    id: 102,
+    letter: "a",
+    year: "1982-1983",
+    item: ITEMS.TE,
+    author: "adamczuk",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645092122/Bibliografia/adamczuk4_yxufls.jpg",
+  },
+  {
+    id: 103,
+    letter: "a",
+    year: "1982-1983",
+    item: ITEMS.TE,
+    author: "adamczuk",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645092122/Bibliografia/adamczuk3_qu9yuz.jpg",
+  },
+  {
+    id: 104,
+    letter: "d",
+    year: "1982-1983",
+    item: ITEMS.TE,
+    author: "Dębek",
+    img_src:
+      "https://res.cloudinary.com/zielona-g-ra/image/upload/v1645092122/Bibliografia/adamczuk3_qu9yuz.jpg",
   },
 ];
